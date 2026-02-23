@@ -2,19 +2,19 @@
 
 namespace JeffersonGoncalves\Filament\Mixpanel\Pages;
 
+use Filament\Forms\Components\Section;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
+use Filament\Forms\Form;
 use Filament\Pages\SettingsPage;
-use Filament\Schemas\Components\Section;
-use Filament\Schemas\Schema;
 use JeffersonGoncalves\Mixpanel\Settings\MixpanelSettings;
 
 class ManageMixpanelSettings extends SettingsPage
 {
     protected static string $settings = MixpanelSettings::class;
 
-    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-chart-bar-square';
+    protected static ?string $navigationIcon = 'heroicon-o-chart-bar-square';
 
     public static function getNavigationGroup(): ?string
     {
@@ -31,10 +31,9 @@ class ManageMixpanelSettings extends SettingsPage
         return __('filament-mixpanel::pages.title');
     }
 
-    public function form(Schema $schema): Schema
+    public function form(Form $form): Form
     {
-        return $schema
-            ->columns(null)
+        return $form
             ->schema([
                 Section::make(__('filament-mixpanel::pages.sections.project_configuration.heading'))
                     ->description(__('filament-mixpanel::pages.sections.project_configuration.description'))
