@@ -1,7 +1,7 @@
 # Filament Mixpanel
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jeffersongoncalves/filament-mixpanel.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-mixpanel)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-mixpanel/fix-php-code-style-issues.yml?branch=3.x&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/filament-mixpanel/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3A3.x)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-mixpanel/fix-php-code-style-issues.yml?branch=2.x&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/filament-mixpanel/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3A2.x)
 [![Total Downloads](https://img.shields.io/packagist/dt/jeffersongoncalves/filament-mixpanel.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-mixpanel)
 
 Filament plugin for Mixpanel analytics — tracking script injection and Settings Page to manage Mixpanel configuration directly from your Filament panel. Supports Filament v3, v4, and v5.
@@ -20,7 +20,7 @@ This package depends on [jeffersongoncalves/laravel-mixpanel](https://github.com
 
 - PHP 8.2 or higher
 - Laravel 11.0 or higher
-- Filament 5.0
+- Filament 4.0
 
 ## Usage
 
