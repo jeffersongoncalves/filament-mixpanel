@@ -1,3 +1,9 @@
+<div class="filament-hidden">
+
+![Filament Mixpanel](https://raw.githubusercontent.com/jeffersongoncalves/filament-mixpanel/2.x/art/jeffersongoncalves-filament-mixpanel.png)
+
+</div>
+
 # Filament Mixpanel
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jeffersongoncalves/filament-mixpanel.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-mixpanel)
