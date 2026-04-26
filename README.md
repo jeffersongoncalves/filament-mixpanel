@@ -1,6 +1,6 @@
 <div class="filament-hidden">
 
-![Filament Mixpanel](https://raw.githubusercontent.com/jeffersongoncalves/filament-mixpanel/2.x/art/jeffersongoncalves-filament-mixpanel.jpg)
+![Filament Mixpanel](https://raw.githubusercontent.com/jeffersongoncalves/filament-mixpanel/2.x/art/jeffersongoncalves-filament-mixpanel.png)
 
 </div>
 
