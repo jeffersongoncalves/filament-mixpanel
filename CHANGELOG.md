@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## 3.2.0 - 2026-09-23
+
+### What's new
+
+- **Translations:** 17 new locales (ar, az, de, es, fa, fr, hi, it, ja, nl, pl, pt, ru, tr, uk, uz, zh_CN). (#24)
+
+Thanks to @Elvin-Qulizade (Elvin Qulizada) for the i18n initiative behind these translations — first contributed in jeffersongoncalves/filament-scanner-guard#2 and now rolled out across the Filament plugins. He is credited as co-author.
+
+### What's Changed
+
+* docs: add Buy Me a Coffee sponsor link by @jeffersongoncalves in https://github.com/jeffersongoncalves/filament-mixpanel/pull/4
+* chore: add GitHub Sponsors to FUNDING.yml by @jeffersongoncalves in https://github.com/jeffersongoncalves/filament-mixpanel/pull/7
+* ci: standardize update-changelog workflow (3.x) by @jeffersongoncalves in https://github.com/jeffersongoncalves/filament-mixpanel/pull/12
+* ci: standardize dependabot config by @jeffersongoncalves in https://github.com/jeffersongoncalves/filament-mixpanel/pull/13
+* ci: standardize dependabot config by @jeffersongoncalves in https://github.com/jeffersongoncalves/filament-mixpanel/pull/16
+* build(deps): update jeffersongoncalves/laravel-mixpanel requirement from ^1.0 to ^2.0 in the composer-deps group by @dependabot[bot] in https://github.com/jeffersongoncalves/filament-mixpanel/pull/19
+* feat(i18n): add translations (3.x) by @jeffersongoncalves in https://github.com/jeffersongoncalves/filament-mixpanel/pull/24
+
+**Full Changelog**: https://github.com/jeffersongoncalves/filament-mixpanel/compare/3.1.0...3.2.0
+
 ## 3.1.0 - 2026-06-23
 
 Refactor onto filament-analytics-core base classes; drop redundant dependencies (provided transitively via the cores).
