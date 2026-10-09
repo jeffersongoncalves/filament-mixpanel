@@ -4,9 +4,9 @@ use Filament\Facades\Filament;
 use Filament\Support\Facades\FilamentView;
 use Filament\View\PanelsRenderHook;
 use Illuminate\Foundation\Auth\User;
-use JeffersonGoncalves\Mixpanel\Settings\MixpanelSettings;
 use JeffersonGoncalves\Filament\Mixpanel\MixpanelPlugin;
 use JeffersonGoncalves\Filament\Mixpanel\Pages\ManageMixpanelSettings;
+use JeffersonGoncalves\Mixpanel\Settings\MixpanelSettings;
 use Livewire\Livewire;
 
 beforeEach(function () {
