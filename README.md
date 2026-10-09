@@ -25,6 +25,15 @@ composer require jeffersongoncalves/filament-mixpanel
 
 This package depends on [jeffersongoncalves/laravel-mixpanel](https://github.com/jeffersongoncalves/laravel-mixpanel) which provides the core Mixpanel analytics integration for Laravel applications.
 
+### Navigation group
+
+Put the settings page in one of your panel's own navigation groups (a string or a closure):
+
+```php
+MixpanelPlugin::make()
+    ->navigationGroup(fn (): string => __('admin.navigation.settings')),
+```
+
 ## Requirements
 
 - PHP 8.2 or higher

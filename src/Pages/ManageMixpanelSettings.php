@@ -8,6 +8,7 @@ use Filament\Forms\Components\Toggle;
 use Filament\Pages\SettingsPage;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
+use JeffersonGoncalves\FilamentAnalyticsCore\AbstractAnalyticsPlugin;
 use JeffersonGoncalves\Mixpanel\Settings\MixpanelSettings;
 
 class ManageMixpanelSettings extends SettingsPage
@@ -18,7 +19,7 @@ class ManageMixpanelSettings extends SettingsPage
 
     public static function getNavigationGroup(): ?string
     {
-        return __('filament-mixpanel::pages.navigation_group');
+        return AbstractAnalyticsPlugin::navigationGroupFor('filament-mixpanel') ?? __('filament-mixpanel::pages.navigation_group');
     }
 
     public static function getNavigationLabel(): string
